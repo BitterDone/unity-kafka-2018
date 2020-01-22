@@ -13,7 +13,7 @@ public class main : MonoBehaviour
 	IConsumer<Ignore, string> c;
 	ConsumerConfig conf;
 	CancellationTokenSource cts;
-	bool logging = false;
+	bool logging = true;
 	int milliseconds = 10;
 	TimeSpan timeout;
 
